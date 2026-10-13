@@ -1,0 +1,4 @@
+interface:
+  display_name: "Torch Tidy"
+  short_description: "Make Torch records true and short"
+  default_prompt: "Use $torch-tidy to bring this project’s Torch records up to date and trim oversized tasks."

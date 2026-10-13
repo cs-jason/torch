@@ -1,0 +1,4 @@
+interface:
+  display_name: "Torch List"
+  short_description: "What needs me and what agents are doing"
+  default_prompt: "Use $torch-list to tell me what needs my attention and what agents are working on."

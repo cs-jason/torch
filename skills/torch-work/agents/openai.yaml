@@ -1,0 +1,4 @@
+interface:
+  display_name: "Torch Work"
+  short_description: "Do a Torch task end to end and record it"
+  default_prompt: "Use $torch-work to pick up the next task an agent can do, finish it, commit and record it in Torch."

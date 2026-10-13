@@ -1,0 +1,4 @@
+interface:
+  display_name: "Torch Plan"
+  short_description: "Turn a discussion into Torch tasks"
+  default_prompt: "Use $torch-plan to turn this discussion into Torch tasks with a recommended order."

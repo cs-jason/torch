@@ -1,0 +1,34 @@
+{
+  "name": "@jasoncjs/torch",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "A local, free alternative to Linear: tasks, a dashboard and project memory for you and your AI agents, in plain files.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cs-jason/torch.git"
+  },
+  "files": [
+    "src/*.mjs",
+    "public/*",
+    "skills/torch-*/SKILL.md",
+    "skills/torch-*/agents/openai.yaml",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "type": "module",
+  "bin": {
+    "torch": "src/cli.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "marked": "^18.0.14",
+    "sanitize-html": "^2.17.7",
+    "yaml": "^2.9.1"
+  }
+}

@@ -1,0 +1,15 @@
+node_modules/
+.DS_Store
+test-results/
+dist/
+*.tgz
+
+# This repository's own Torch records stay local.
+/.torch/
+
+.env
+.env.*
+!.env.example
+*.log
+.write-lock
+*.tmp

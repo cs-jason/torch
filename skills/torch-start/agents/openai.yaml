@@ -1,0 +1,4 @@
+interface:
+  display_name: "Torch Start"
+  short_description: "Set up Torch in a project once"
+  default_prompt: "Use $torch-start to set up Torch in this project."
